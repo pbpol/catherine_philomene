@@ -1,0 +1,12 @@
+2016-10-29 16:03:24 1477749804 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-10-29 16:03:26 1477749804 DEBUG:  E-Transactions version check answer: {"version":"2.2.2","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-2.2.2.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-10-29 16:05:34 1477749928 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-10-29 16:05:34 1477749928 DEBUG:  E-Transactions version check answer: {"version":"2.2.2","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-2.2.2.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-10-29 16:17:30 1477750646 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-10-29 16:17:30 1477750646 DEBUG:  E-Transactions version check answer: {"version":"2.2.2","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-2.2.2.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-10-29 16:19:23 1477750763 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-10-29 16:19:23 1477750763 DEBUG:  E-Transactions version check answer: {"version":"2.2.2","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-2.2.2.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-10-29 16:20:49 1477750849 DEBUG: URL to check 1
+2016-10-29 16:20:49 1477750849 DEBUG: Checking E-Transactions URL https://preprod-tpeweb.e-transactions.fr/load.html
+2016-10-29 16:20:49 1477750849 DEBUG:   Valid url found: https://preprod-tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-10-29 16:20:49 1477750849 DEBUG: Cart 15: Redirecting customer to E-Transactions (CARTE, CB).

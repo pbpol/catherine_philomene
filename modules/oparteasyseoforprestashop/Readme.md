@@ -1,0 +1,1 @@
+# Easy seo for prestashop

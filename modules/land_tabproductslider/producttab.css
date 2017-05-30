@@ -1,0 +1,82 @@
+.product-tabs-slider{
+	position:relative;
+}
+.lab_tabs{
+    background: url("img/bg_line.png") repeat-x scroll left 5px rgba(0, 0, 0, 0);
+    margin: 0 15px 40px 15px;
+    text-align: center;
+	
+}
+.tabs{
+	display:inline-block;
+	position:relative;
+	margin:0;
+	background:#fff;
+}
+.tabs li{
+    background: url("img/icon_1.png") no-repeat scroll right center ;
+    color: #666666;
+    display: inline;
+    float: left;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    margin-left: 15px;
+    padding-right: 25px;
+    text-transform: uppercase;
+	cursor: pointer;
+-webkit-transition: all 300ms ease-in;
+-moz-transition: all 300ms ease-in;
+-ms-transition: all 300ms ease-in;
+-o-transition: all 300ms ease-in;
+transition: all 300ms ease-in;
+}
+.tabs li:hover,
+.tabs li.active{
+	color:#d71f53;
+}
+.tabs li.first_item{
+	margin:0;
+	padding-left: 25px;
+}
+.tabs li.last_item {
+	background:none;
+}
+.sliderLoadingTab {
+    background: rgba(0, 0, 0, 0) url("img/loading.GIF") no-repeat scroll center center;
+    display: block;
+    height: 62px;
+    margin: 0 auto;
+    text-align: center;
+    text-indent: -9999em;
+    width: 60px;
+    margin-top: 170px;
+}
+.tab_container.lablistproducts {
+    min-height: 430px;
+}
+.lab_boxnp {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.lab_boxnp a{cursor: pointer;}
+.img-responsive.img2 {
+    display: none;
+}
+@media (max-width: 480px){
+	.tabs li{
+		font-size: 14px;
+		padding-right: 15px;
+	}
+	.tabs li.first_item{
+		padding-left: 15px;
+	}
+	.product-tabs-slider .lab_boxnp{
+		display:none;
+	}
+	.box-cart-bottom .box-cart{
+		margin:0;
+	}
+}

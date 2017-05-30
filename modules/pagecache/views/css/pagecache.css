@@ -1,0 +1,65 @@
+/* Reset styles for #pagecache_stats */
+#pagecache_stats,#pagecache_stats *,#pagecache_stats a:hover,#pagecache_stats a:visited,#pagecache_stats a:active
+	{
+	background: none;
+	border: none;
+	bottom: auto;
+	clear: none;
+	cursor: default;
+	/* didn't really know what the default for display should be*/
+	/*display:inline;*/
+	float: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	height: auto;
+	left: auto;
+	letter-spacing: normal;
+	line-height: normal;
+	max-height: none;
+	max-width: none;
+	min-height: 0;
+	min-width: 0;
+	overflow: visible;
+	position: static;
+	right: auto;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	text-transform: none;
+	top: auto;
+	visibility: visible;
+	white-space: normal;
+	width: auto;
+	z-index: auto;
+}
+#pagecache_stats  td, #pagecache_stats th {
+	padding:2px 5px;
+}
+#pagecache_stats  td:first-child {
+	font-weight:bold;
+}
+#pagecache_stats caption{padding:5px; text-align:left; font-size:21px; font-weight:bold; background-color: lightgray;border: 3px white solid; border-bottom:none}
+#pagecache_stats .adv {display:none;}
+#pagecache_stats {
+	width: 33%;
+	float: left;
+	z-index: 10000;
+	margin: 5px;
+	position: fixed;
+	bottom: 15px;
+	background-color: lightgray;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	border: 3px white solid;
+}
+#pagecache_stats:hover {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+#pagecache_stats tr:hover {background-color: #ddd}
+#pagecache_stats .actions {display:inline;float:right;}
+#pagecache_stats a:hover, #pagecache_stats a:visited, #pagecache_stats a:active,
+#pagecache_stats a:hover img, #pagecache_stats a:visited img, #pagecache_stats a:active img {
+	cursor: pointer;
+}

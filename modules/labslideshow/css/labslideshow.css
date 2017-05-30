@@ -1,0 +1,324 @@
+/*
+ * jQuery Nivo Slider v3.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	width:100%;
+	z-index:8;
+	display: none;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0;
+}
+.nivo-nextNav {
+	right:0;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    z-index: 100000;
+}
+.nivo-controlNav a {
+    background: none repeat scroll 0 0 #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 7px;
+    margin: 0 2px;
+    text-indent: -999em;
+    width: 40px;
+}
+.nivo-controlNav a:hover ,
+.nivo-controlNav a.active {
+	font-weight:bold;
+	background:#000;
+}
+.description .men-fasion {
+	font-family: "Oswald", sans-serif;
+	font-size: 80px;
+	text-transform: uppercase;
+}
+.description.animated.a2 {
+	padding-top: 45px;
+}
+
+#lab-slideshow,
+.lab-nivoSlideshow{
+	position:relative;
+}
+.nivo-caption .title{
+    color: #fff;
+    font-size: 36px;
+    font-weight: lighter;
+	font-family: "Oswald", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    top: 25%;
+    left:25%;
+	right:25%;
+	-webkit-transition: all 300ms ease-in;
+	-moz-transition: all 300ms ease-in;
+	-ms-transition: all 300ms ease-in;
+	-o-transition: all 300ms ease-in;
+	transition: all 300ms ease-in;
+	z-index: 10;
+}
+.description .sale-off{
+	font-family: "Roboto",sans-serif;
+	font-size: 18px;
+	padding:33px 0;
+	letter-spacing:10px;
+	text-transform: uppercase;
+
+}
+.shopnow.animated.a3 > a {
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+	color: #ffffff;
+	font-family: "Oswald",sans-serif;
+	font-size: 12px;
+	padding: 10px 55px;
+	text-transform: uppercase;
+}
+.nivo-caption .lab_description{
+    color: #fff;
+    font-size: 14px;
+    line-height: 150%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left:30%;
+	right:0;
+	-webkit-transition: all 500ms ease-in;
+	-moz-transition: all 500ms ease-in;
+	-ms-transition: all 500ms ease-in;
+	-o-transition: all 500ms ease-in;
+	transition: all 500ms ease-in;
+z-index: 10;
+}
+
+.nivo-caption .readmore{
+    color: #fff;
+    font-size: 14px;
+    left:25%;
+	right:25%;
+    line-height: 150%;
+    position: absolute;
+    text-align: center;
+    top:45%;
+-webkit-transition: all 700ms ease-in;
+-moz-transition: all 700ms ease-in;
+-ms-transition: all 700ms ease-in;
+-o-transition: all 700ms ease-in;
+transition: all 700ms ease-in;
+z-index: 10;
+}
+.nivo-caption .readmore a{
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.nivo-prevNav,.nivo-nextNav{
+   /* background: rgba(193, 193, 193, 0.5);*/
+    background: #ffffff;
+    color: black;
+    display: inline-block;
+    font-size: 30px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    width: 80px;
+
+	-webkit-transition: all 300ms ease-in;
+	-moz-transition: all 300ms ease-in;
+	-ms-transition: all 300ms ease-in;
+	-o-transition: all 300ms ease-in;
+	transition: all 300ms ease-in;
+}
+.nivo-prevNav:hover,.nivo-nextNav:hover{
+	color:#fff;
+	background-color:rgba(124,207,196,.5);
+}
+	@-webkit-keyframes myfirst {
+		from {width: 0;}
+		to {width: 100%;}
+	}
+	@-moz-keyframes myfirst {
+		from {width: 0;}
+		to {width: 100%;}
+	}
+	@keyframes myfirst {
+		from {width: 0;}
+		to {width: 100%;}
+	}
+	.timeline{
+		z-index:10;
+	}
+	.timeline.lab_hover{
+		-webkit-animation-play-state: paused !important;
+		animation-play-state: paused !important;
+	}
+	
+.lab-nivoSlideshow{
+	clear:both;
+}
+
+	/* general style */
+	.preview {
+		width: 90px;
+		height:90px;
+		position: absolute;
+		top:0;
+		left:90px;
+		z-index:100;
+		-webkit-transition:  all 0.3s ease-out;
+		-moz-transition:  all 0.3s ease-out;
+		transition:  all 0.3s ease-out;
+		background-color: #ffffff;
+	}
+
+	.preview img {
+		position: absolute;
+		left:0;
+		top:0;
+		width: 90px;
+		height: 100%;
+	}
+
+	.preview .alt {
+		display:none;
+	}
+
+
+	/* prev button */
+	.flex-prev {
+		-webkit-perspective-origin: 100% 50%;
+		perspective-origin: 100% 50%;
+		-webkit-perspective: 1000px;
+		perspective: 1000px;
+	}
+
+	.flex-prev .preview {
+		-webkit-transform: rotateY(90deg);
+		transform: rotateY(90deg);
+		-webkit-transform-origin: 0% 50%;
+		transform-origin: 0% 50%;
+	}
+
+
+	/* next button */
+	.flex-next {
+		-webkit-perspective-origin: 0% 50%;
+		perspective-origin: 0% 50%;
+		-webkit-perspective: 1000px;
+		perspective: 1000px;
+	}
+
+	.flex-next .preview {
+		right:90px;
+		left:auto;
+		-webkit-transform: rotateY(-90deg);
+		transform: rotateY(-90deg);
+		-webkit-transform-origin: 100% 100%;
+		transform-origin: 100% 100%;
+	}
+
+	.flex-next .preview img {
+		position: absolute;
+		left:0;
+		top:0;
+		width: 90px;
+	}
+
+
+	/* hover style */
+	.flex-direction-nav a:hover .preview {
+		opacity:1;
+		-webkit-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+	}
+
+
+	/* different hover style for flexslider nav */
+	.flex-direction-nav a {
+		-webkit-transition:  none;
+		-moz-transition: none;
+		transition:  none;
+	}
+

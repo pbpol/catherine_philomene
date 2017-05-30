@@ -1,0 +1,40 @@
+.oesfpPanelImg .panel{
+    clear:both;
+    overflow:auto;
+}
+.oesfpConteneurImg {
+    float:left;
+    width:200px;
+    padding:10px;
+    border:1px solid #ccc;
+    margin:5px;
+    text-align:center;
+    position:relative;
+}
+.oesfpZoomIco {
+    position:absolute;
+    right:10px;
+    top:10px;
+    cursor:pointer;
+}
+#oesfpBigImg {
+    display:none;
+}
+.oesfpSavedSpan {
+    display:none;
+    position:absolute;
+    top:50%;
+    left:10px;
+    margin-top:-15px;
+    color:green;
+    padding:3px;
+    border:1px solid #000;
+    background:#FFF;
+    font-weight:bold;
+    font-size:14px;
+    width:180px;
+}
+.oesfp_selected_category {
+    width: 90%;
+    height:200px !important;
+}

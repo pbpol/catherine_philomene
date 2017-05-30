@@ -1,0 +1,177 @@
+/**
+* E-Transactions PrestaShop Module
+*
+* Feel free to contact E-Transactions at support@e-transactions.fr for any
+* question.
+*
+* LICENSE: This source file is subject to the version 3.0 of the Open
+* Software License (OSL-3.0) that is available through the world-wide-web
+* at the following URI: http://opensource.org/licenses/OSL-3.0. If
+* you did not receive a copy of the OSL-3.0 license and are unable 
+* to obtain it through the web, please send a note to
+* support@e-transactions.fr so we can mail you a copy immediately.
+*
+*  @category  Module / payments_gateways
+*  @version   2.0.0
+*  @author    E-Transactions <support@e-transactions.fr>
+*  @copyright 2012-2016 E-Transactions
+*  @license   http://opensource.org/licenses/OSL-3.0
+*  @link      http://www.e-transactions.fr/
+ **/
+
+.etran_pres {
+	color: #707173;
+}
+
+.etran_bloc {
+	border: dashed 1px #0066A1;
+	margin: 6px;
+	padding: 10px;
+}
+
+.etran_pres h2 {
+	color: #df0023;
+	margin-top: 0px;	
+}
+.etran_pres h4{
+	font-size: 18px;
+	color: #DB3484;
+}
+.etran_pres strong, .etran_pres strong a {
+	color: #0066A1;
+}
+
+.etran_pres ol {
+	list-style: decimal;
+}
+
+.etran_pres ul, .etran_method ul {
+	list-style: disc;
+}
+
+.etran_pres ol, .etran_pres ul, .etran_method ul {
+	padding-left: 25px;
+}
+
+.etran_pres .etran_offers {
+	width: 75%;
+	margin: auto;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+.etran_pres .etran_offers thead th{
+	background: #8bc954;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.etran_pres .etran_offers thead th.etran_pack {
+	width: 23%;
+}
+
+.etran_pres .etran_offers td, .etran_pres .etran_offers th {
+	padding: 4px;
+}
+
+.etran_pres .etran_offers td.etran_check {
+	text-align: center;
+	color: #DB3484;
+}
+
+.etran_pres .etran_offers td.etran_nocheck {
+	text-align: center;
+}
+
+.etran_pres .etran_offers td.etran_optioncheck {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.etran_pres .etran_offers tr.etran_odd {
+	background-color: #f8f8f8;
+}
+
+.etran_pres .etran_offers tr.etran_even {
+	background-color: #ededed;
+}
+
+.etran_clear {
+	clear: both;
+}
+
+#content.bootstrap .etran_panel {
+	background: #ebedf4;
+}
+
+.etran_method {
+	width: 260px;
+	height: 218px;
+	float: left;
+	border: 1px solid gray;
+	margin: 0 0 8px 20px;
+	padding: 8px;
+}
+
+.etran_method .etran_img {
+	float: left;
+	width: 26%;
+	text-align: center;
+}
+
+.etran_method .etran_label, .etran_method .etran_active {
+	float: right;
+	width: 72%;
+	margin-bottom: 3px;
+}
+
+.etran_method .etran_active, .etran_method .etran_active label {
+	text-align: center;
+}
+
+.etran_method .etran_active label {
+	float: none;
+}
+
+.etran_method label {
+	font-weight: normal;
+	margin: 0;
+	width: auto;
+}
+
+.etran_method .etran_label input {
+	width: 95%;
+}
+
+.etran_method .etran_details {
+	clear: right;
+	float: right;
+	width: 68%;
+	height: 100px;
+}
+
+.etran_method .etran_action {
+	clear: both;
+	text-align: right;
+	margin-top: 3px;
+}
+
+.etran_links {
+	margin-bottom: 12px;
+	margin-top: -6px;
+}
+
+.etran_method_add {
+	position: relative;
+	height: 0;
+	overflow: visible;
+	text-align: right;
+	top: -40px;
+}
+
+#etran_method_add_panel {
+	border: solid 1px #e6e6e6;
+	padding: 8px;
+}

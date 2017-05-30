@@ -1,0 +1,13 @@
+2016-11-09 23:19:56 1478729996 DEBUG: URL to check 1
+2016-11-09 23:19:56 1478729996 DEBUG: Checking E-Transactions URL https://preprod-tpeweb.e-transactions.fr/load.html
+2016-11-09 23:19:56 1478729996 DEBUG:   Valid url found: https://preprod-tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-09 23:19:56 1478729996 DEBUG: Cart 15: Redirecting customer to E-Transactions (CARTE, CB).
+2016-11-09 23:20:14 1478730014 DEBUG: Call params: M=1031000&R=15%20-%20Kevin%20PRE&T=18637808&A=XXXXXX&B=0&C=CB&D=2412&E=00000&G=D&I=FRA&J=44&N=111122&P=CARTE&Q=23%3A19%3A58&S=8524150&W=09112016&K=f9dT7Hw%2BwkMYrSYT%2Bt9%2BTeXX2UgEpt4rWXQJEK3jGfRqwiT0DcTqnG3w%2FYuOJmyLlKtE5bxuLBcq8MLC%2FwzOkbHKekn%2B%2BXLW1Umo%2BF%2FCcSw4CikHCLvh%2B0P8XwKP8bqEpRTKPhWjAmSJqhHYCvsz2SRmpEwpGIuJAe8yLvE7%2FOY%3D
+2016-11-09 23:20:14 1478730014 DEBUG: Cart 15: Standard IPN
+2016-11-09 23:20:14 1478730014 DEBUG: Cart 15: Validating order
+2016-11-09 23:20:18 1478730014 DEBUG: Cart 15: Order 7 / Le paiement a été autorisé et capturé par E-Transactions.
+2016-11-09 23:20:23 1478730023 DEBUG: Cart 15: Customer is back from E-Transactions payment page. Payment success.
+2016-11-09 23:24:54 1478730294 DEBUG: Cart 15: Order 7 / Order amount changed : 10310.000000 => 2510.000000
+2016-11-09 23:25:01 1478730301 DEBUG: Cart 15: Order 7 / Order amount changed : 10310.000000 => 60.000000
+2016-11-09 23:26:18 1478730378 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-09 23:26:20 1478730378 DEBUG:  E-Transactions version check answer: {"version":"2.2.2","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-2.2.2.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}

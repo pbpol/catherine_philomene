@@ -1,0 +1,97 @@
+2016-11-23 23:17:05 1479939425 DEBUG: URL to check 2
+2016-11-23 23:17:05 1479939425 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:17:06 1479939425 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:17:06 1479939425 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, EUROCARD_MASTERCARD).
+2016-11-23 23:24:10 1479939850 DEBUG: URL to check 2
+2016-11-23 23:24:10 1479939850 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:24:10 1479939850 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:24:10 1479939850 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, EUROCARD_MASTERCARD).
+2016-11-23 23:24:34 1479939874 DEBUG: URL to check 2
+2016-11-23 23:24:34 1479939874 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:24:34 1479939874 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:24:34 1479939874 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, CB).
+2016-11-23 23:25:13 1479939913 DEBUG: URL to check 2
+2016-11-23 23:25:13 1479939913 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:25:13 1479939913 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:25:13 1479939913 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, CB).
+2016-11-23 23:26:07 1479939967 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:26:07 1479939967 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:30:45 1479940245 DEBUG: URL to check 2
+2016-11-23 23:30:45 1479940245 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:30:45 1479940245 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:30:45 1479940245 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, CB).
+2016-11-23 23:33:52 1479940431 DEBUG: URL to check 2
+2016-11-23 23:33:52 1479940431 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:33:52 1479940431 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:33:52 1479940431 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, CB).
+2016-11-23 23:33:56 1479940436 DEBUG: URL to check 2
+2016-11-23 23:33:56 1479940436 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:33:56 1479940436 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:33:56 1479940436 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, CB).
+2016-11-23 23:35:39 1479940539 DEBUG: URL to check 2
+2016-11-23 23:35:39 1479940539 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:35:39 1479940539 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:35:39 1479940539 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, EUROCARD_MASTERCARD).
+2016-11-23 23:37:41 1479940661 DEBUG: URL to check 2
+2016-11-23 23:37:41 1479940661 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:37:41 1479940661 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:37:41 1479940661 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, EUROCARD_MASTERCARD).
+2016-11-23 23:38:16 1479940696 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:38:16 1479940696 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:38:35 1479940715 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:38:35 1479940715 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:38:40 1479940720 DEBUG: URL to check 2
+2016-11-23 23:38:40 1479940720 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:38:40 1479940720 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:38:40 1479940720 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, EUROCARD_MASTERCARD).
+2016-11-23 23:38:54 1479940733 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:38:54 1479940733 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:39:27 1479940767 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:39:27 1479940767 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:39:31 1479940771 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:39:31 1479940771 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:39:37 1479940777 DEBUG: URL to check 1
+2016-11-23 23:39:37 1479940777 DEBUG: Checking E-Transactions URL https://preprod-tpeweb.e-transactions.fr/load.html
+2016-11-23 23:39:38 1479940777 DEBUG:   Valid url found: https://preprod-tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:39:38 1479940777 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, CB).
+2016-11-23 23:40:16 1479940816 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:40:16 1479940816 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:40:24 1479940824 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:40:24 1479940824 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:41:04 1479940864 DEBUG: URL to check 1
+2016-11-23 23:41:04 1479940864 DEBUG: Checking E-Transactions URL https://preprod-tpeweb.e-transactions.fr/load.html
+2016-11-23 23:41:04 1479940864 DEBUG:   Valid url found: https://preprod-tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:41:04 1479940864 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, EUROCARD_MASTERCARD).
+2016-11-23 23:42:31 1479940951 DEBUG: URL to check 1
+2016-11-23 23:42:31 1479940951 DEBUG: Checking E-Transactions URL https://preprod-tpeweb.e-transactions.fr/load.html
+2016-11-23 23:42:31 1479940951 DEBUG:   Valid url found: https://preprod-tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:42:31 1479940951 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, EUROCARD_MASTERCARD).
+2016-11-23 23:42:58 1479940978 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:42:58 1479940978 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:43:19 1479940999 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:43:19 1479940999 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:43:25 1479941005 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-11-23 23:43:25 1479941005 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-11-23 23:43:51 1479941031 DEBUG: URL to check 2
+2016-11-23 23:43:51 1479941031 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-11-23 23:43:51 1479941031 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-11-23 23:43:51 1479941031 DEBUG: Cart 17: Redirecting customer to E-Transactions (CARTE, EUROCARD_MASTERCARD).
+2016-11-23 23:44:23 1479941063 DEBUG: Call params: M=1000&R=17%20-%20Kevin%20PRE&T=667858411&A=961465&B=0&C=MasterCard&D=1906&E=00000&G=D&I=FRA&J=52&N=513771&P=CARTE&Q=23%3A43%3A52&S=667217261&W=23112016&Y=FRA&K=DpWeO3tlv3xIEuT2U2epkKi7ROjmQE5pTKBDM8wYgqZOh%2Fen19lw7ZlQBRd%2BxNHnTEz9f2qNuq9eES0VUb%2Bwq4yKUQlWQBDmDoSSofaJGtGdi%2B7f7zzAKCwhHv8FXKcoBAgMHlav1YfFVjs3LPL2564lFouyJv1IEvLceadGQ3Q%3D
+2016-11-23 23:44:23 1479941063 DEBUG: Cart 17: Standard IPN
+2016-11-23 23:44:23 1479941063 DEBUG: Cart 17: Validating order
+2016-11-23 23:44:25 1479941063 DEBUG: Cart 17: Order 8 / Le paiement a été autorisé et capturé par E-Transactions.
+2016-11-23 23:44:27 1479941067 DEBUG: Cart 17: Customer is back from E-Transactions payment page. Payment success.
+2016-11-23 23:55:35 1479941735 DEBUG: Cart 17: Order 8 / Order amount changed : 10.000000 => 10.000000
+2016-11-23 23:55:35 1479941735 DEBUG: URL to check 2
+2016-11-23 23:55:35 1479941735 DEBUG: Checking E-Transactions URL https://ppps.e-transactions.fr/load.html
+2016-11-23 23:55:35 1479941735 DEBUG:   Valid url found: https://ppps.e-transactions.fr/PPPS.php
+2016-11-23 23:55:35 1479941735 DEBUG: Order 8: call E-Transactions - DEVISE=978 MONTANT=0000001000 NUMAPPEL=0667858411 NUMTRANS=0667217261 TYPE=00014
+2016-11-23 23:55:35 1479941735 DEBUG: Order 8: E-Transactions error code 200
+2016-11-23 23:55:35 1479941735 DEBUG: Order 8: E-Transactions data NUMTRANS=0000000000&NUMAPPEL=0000000000&NUMQUESTION=0000000001&AUTORISATION=000000&SITE=0000000&RANG=00&CODEREPONSE=00006&COMMENTAIRE=Non+autorise
+2016-11-23 23:56:35 1479941795 DEBUG: Cart 17: Order 8 / Order amount changed : 10.000000 => 0.000000
+2016-11-23 23:56:35 1479941795 DEBUG: URL to check 2
+2016-11-23 23:56:35 1479941795 DEBUG: Checking E-Transactions URL https://ppps.e-transactions.fr/load.html
+2016-11-23 23:56:35 1479941795 DEBUG:   Valid url found: https://ppps.e-transactions.fr/PPPS.php
+2016-11-23 23:56:35 1479941795 DEBUG: Order 8: call E-Transactions - DEVISE=978 MONTANT=0000001000 NUMAPPEL=0667858411 NUMTRANS=0667217261 TYPE=00014
+2016-11-23 23:56:35 1479941795 DEBUG: Order 8: E-Transactions error code 200
+2016-11-23 23:56:35 1479941795 DEBUG: Order 8: E-Transactions data NUMTRANS=0000000000&NUMAPPEL=0000000000&NUMQUESTION=0000000001&AUTORISATION=000000&SITE=0000000&RANG=00&CODEREPONSE=00006&COMMENTAIRE=Non+autorise

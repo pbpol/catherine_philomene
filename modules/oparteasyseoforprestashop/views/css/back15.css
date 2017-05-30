@@ -1,0 +1,6 @@
+fieldset, legend {
+    background: #fbf9fb;
+}
+input[type="text"] {
+    width:90%;
+}

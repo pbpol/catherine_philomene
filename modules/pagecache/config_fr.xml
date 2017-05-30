@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>pagecache</name>
+	<displayName><![CDATA[Page Cache]]></displayName>
+	<version><![CDATA[3.17]]></version>
+	<description><![CDATA[Permet la mise en cache des pages d&#039;accueil, cat&eacute;gories, produits, CMS et beaucoup d&#039;autres, en entier. Ce module permet d&#039;avoir un cache tout en ayant des modules comme &quot;D&eacute;j&agrave; vus&quot; ou &quot;Mon compte&quot; qui se chargent dynamiquement en Ajax. Passez de quelques secondes de chargement &agrave; quelques millisecondes en un clin d&#039;oeil!]]></description>
+	<author><![CDATA[JPresta.com]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

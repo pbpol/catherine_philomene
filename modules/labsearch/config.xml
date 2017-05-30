@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>labsearch</name>
+	<displayName><![CDATA[Search block]]></displayName>
+	<version><![CDATA[0.1]]></version>
+	<description><![CDATA[Search field to your website.]]></description>
+	<author><![CDATA[Labersthemes]]></author>
+	<tab><![CDATA[search_filter]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

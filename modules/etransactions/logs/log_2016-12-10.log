@@ -1,0 +1,15 @@
+2016-12-10 09:06:39 1481357199 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-12-10 09:06:39 1481357199 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-12-10 09:38:12 1481359092 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-12-10 09:38:12 1481359092 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-12-10 09:38:46 1481359125 DEBUG: Checking E-Transactions update to version 3.0.4
+2016-12-10 09:38:46 1481359125 DEBUG:  E-Transactions version check answer: {"version":"3.0.0","url":"http:\/\/www1.paybox.com\/wp-admin\/admin-ajax.php?action=pb_md_download&email=update-ET@verifone.com&module=prestashop-ET&filename=etransactions-3.0.0.zip","message":"Mise \u00e0 jour mineure: diverses corrections de bugs mineurs, am\u00e9lioration des processus de remboursement en back-office prestashop, mise \u00e0 jour de la documentation."}
+2016-12-10 10:27:25 1481362045 DEBUG: URL to check 2
+2016-12-10 10:27:25 1481362045 DEBUG: Checking E-Transactions URL https://tpeweb.e-transactions.fr/load.html
+2016-12-10 10:27:25 1481362045 DEBUG:   Valid url found: https://tpeweb.e-transactions.fr/cgi/MYchoix_pagepaiement.cgi
+2016-12-10 10:27:25 1481362045 DEBUG: Cart 18: Redirecting customer to E-Transactions (CARTE, EUROCARD_MASTERCARD).
+2016-12-10 10:29:43 1481362183 DEBUG: Call params: M=1000&R=18%20-%20Frederic%20Houben&T=672573713&A=270172&B=0&C=MasterCard&D=1810&E=00000&F=Y&G=O&I=FRA&J=00&N=513625&O=Y&P=3DSECURE&Q=10%3A27%3A26&S=671456072&W=10122016&Y=FRA&K=Ya6vMMUA33%2B6Hf4qvCDUtgm5mzTFhpISwhK5XUkLU1E8s2qHp6ylzLgbnePJkZcN9OXXY4OyhfcbEhoEvu07dOfYC5S1e5XQ4meqwxlUqueZfIY3UTcm99QbBjc48M54ZaTCuulk6UaBLj1NUf1D6yl1HNorUV0N%2Bn0RA0tlKCg%3D
+2016-12-10 10:29:43 1481362183 DEBUG: Cart 18: Standard IPN
+2016-12-10 10:29:43 1481362183 DEBUG: Cart 18: Validating order
+2016-12-10 10:29:48 1481362183 DEBUG: Cart 18: Order 10 / Le paiement a été autorisé et capturé par E-Transactions.
+2016-12-10 10:29:58 1481362198 DEBUG: Cart 18: Customer is back from E-Transactions payment page. Payment success.

@@ -1,0 +1,96 @@
+
+.require {
+    color: #FF0000;
+    float: right;
+    margin: 5px -10px 1px 4px;
+}
+
+
+.show_error_testimonial{
+  background-color: lightcoral;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid dimgray;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.submit_success{
+  background-color: lightgreen;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid dimgray;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.image-alltestimoninal{
+    display: inline;
+    height: 160px;
+    margin: 10px 10px 0;
+    width: 160px;
+}
+.image-alltestimoninals{
+    display: block;
+}
+.video-alltestimoninal{
+    display: inline;
+    float: left;
+    height: 124px;
+    width: 220px;
+}
+.alltestimonial-content {
+    float: left;
+    font-style: italic;
+    margin: 10px 8px;
+    min-height: 150px;
+    padding: 0 5px 10px;
+    width: 76%;
+}
+.img-content{
+    width: auto;
+    float: left;
+}
+.date-add{
+    font-style: italic;
+}
+.username {
+    color: #3A3939;
+}
+.info-user{
+    float: right;
+    margin-right: 98px;
+    text-align: left;
+}
+.wrapper-alltestimoninals{
+    border: 1px solid #D6D4D4;
+    width: auto;
+    min-height: 215px;
+    margin: 10px 0 0;
+}
+.button-testimonial {
+    bottom: 0;
+    float: right;
+    margin: 0 260px;
+
+}
+.form-submit {
+    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.17);
+    padding: 0 19px 21px;
+}
+.button-view{
+    height: 48px;
+}
+#testimonials_block_right .bx-wrapper .bx-viewport {
+    height: auto; !important;
+    left: 0px;
+}
+
+
+.media-content{
+  text-align: left;
+}

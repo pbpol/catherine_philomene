@@ -1,0 +1,65 @@
+Upgrading to 3.1.0
+Module updated
+Upgrading to 3.3.0
+SHOW CREATE TABLE ps_ogone_alias
+'CREATE TABLE `ps_ogone_alias` (
+  `id_ogone_alias` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_customer` int(10) unsigned NOT NULL DEFAULT \'0\',
+  `alias` varchar(128) NOT NULL DEFAULT \'\',
+  `active` int(10) NOT NULL DEFAULT \'0\',
+  `cardno` varchar(64) NOT NULL DEFAULT \'\',
+  `cn` varchar(128) NOT NULL DEFAULT \'\',
+  `brand` varchar(128) NOT NULL DEFAULT \'\',
+  `expiry_date` date NOT NULL,
+  `date_add` datetime NOT NULL,
+  `date_upd` datetime NOT NULL,
+  PRIMARY KEY (`id_ogone_alias`),
+  KEY `id_customer` (`id_customer`),
+  KEY `alias` (`alias`),
+  KEY `active` (`active`),
+  KEY `expiry_date` (`expiry_date`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8'
+false
+Adding "is_temporary" field
+Module updated
+Upgrading to 3.3.1
+Module updated
+Upgrading to 3.3.2
+SHOW CREATE TABLE ps_ogone_alias
+'CREATE TABLE `ps_ogone_alias` (
+  `id_ogone_alias` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_customer` int(10) unsigned NOT NULL DEFAULT \'0\',
+  `alias` varchar(128) NOT NULL DEFAULT \'\',
+  `active` int(10) NOT NULL DEFAULT \'0\',
+  `cardno` varchar(64) NOT NULL DEFAULT \'\',
+  `cn` varchar(128) NOT NULL DEFAULT \'\',
+  `brand` varchar(128) NOT NULL DEFAULT \'\',
+  `expiry_date` date NOT NULL,
+  `date_add` datetime NOT NULL,
+  `date_upd` datetime NOT NULL,
+  `is_temporary` int(1) NOT NULL DEFAULT \'0\',
+  PRIMARY KEY (`id_ogone_alias`),
+  KEY `id_customer` (`id_customer`),
+  KEY `alias` (`alias`),
+  KEY `active` (`active`),
+  KEY `expiry_date` (`expiry_date`),
+  KEY `is_temporary` (`is_temporary`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8'
+'is_temporary` int(1) NOT NULL DEFAULT \'0\',
+  PRIMARY KEY (`id_ogone_alias`),
+  KEY `id_customer` (`id_customer`),
+  KEY `alias` (`alias`),
+  KEY `active` (`active`),
+  KEY `expiry_date` (`expiry_date`),
+  KEY `is_temporary` (`is_temporary`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8'
+Field "is_temporary" already present
+ALTER TABLE ps_ogone_pm_shop DROP INDEX (id_ogone_pm)
+ query result false
+ALTER TABLE ps_ogone_pm_shop DROP INDEX (id_shop)
+ query result false
+ALTER TABLE ps_ogone_pm_shop DROP INDEX (id_shop_group)
+ query result false
+ALTER TABLE ps_ogone_pm_shop ADD PRIMARY KEY (`id_ogone_pm`,`id_shop`, `id_shop_group`)
+ query result false
+Module updated

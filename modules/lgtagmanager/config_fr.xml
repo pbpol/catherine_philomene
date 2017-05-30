@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>lgtagmanager</name>
+	<displayName><![CDATA[Google Tag Manager - Gestionnaire de Balises]]></displayName>
+	<version><![CDATA[1.0.5]]></version>
+	<description><![CDATA[Int&eacute;grez le script de Google Tag Manager dans votre boutique.]]></description>
+	<author><![CDATA[L&iacute;nea Gr&aacute;fica]]></author>
+	<tab><![CDATA[analytics_stats]]></tab>
+	<confirmUninstall><![CDATA[Êtes-vous sûr(e) de vouloir désinstaller le module ?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
