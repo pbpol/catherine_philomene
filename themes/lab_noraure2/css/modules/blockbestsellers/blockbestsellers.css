@@ -1,0 +1,19 @@
+
+#best-sellers_block_right .nb-comments {
+	display: none;
+}
+
+#best-sellers_block_right .product-name {
+	font-family: "Roboto",'san-serif';
+	font-size:13px;
+	color: #747474;
+} 
+#best-sellers_block_right 	.price {
+	font-family: "Oswald",'san-serif';
+	font-size: 13px;
+}
+#best-sellers_block_right .bestseller-img {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*# sourceMappingURL=blockbestsellers.css.map */

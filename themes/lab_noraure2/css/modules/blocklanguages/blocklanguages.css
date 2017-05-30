@@ -1,0 +1,75 @@
+#languages-block-top {
+    float: right;
+    height: 40px;
+    padding-right: 10px;
+    position: relative;
+   }
+
+
+  #languages-block-top .current::after {
+   
+  }
+
+
+  @media (max-width: 479px) {
+    #languages-block-top {
+      width: 25%; } }
+  #languages-block-top span.firstWord {
+    display: none; }
+  #languages-block-top div.current {
+    padding: 10px 20px;
+    line-height: 18px;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer; }
+    @media (max-width: 479px) {
+      #languages-block-top div.current {
+        text-align: center;
+        padding: 9px 5px 10px;
+        font-size: 11px; } }
+    #languages-block-top div.current strong {
+      color: #777777; }
+    #languages-block-top div.current:hover, #languages-block-top div.current.active {
+       background-color: rgba(255, 255, 255, 0.1);
+    }
+    #languages-block-top div.current:after {
+      content: "\f0d7";
+      font-family: "FontAwesome";
+      font-size: 14px;
+    line-height: 18px;
+    padding-right: 2px;
+    vertical-align: 0;
+
+    }
+      @media (max-width: 479px) {
+        #languages-block-top div.current:after {
+          padding-left: 2px;
+          font-size: 13px;
+          line-height: 18px;
+          vertical-align: 0; } }
+    @media (max-width: 479px) {
+      #languages-block-top div.current .cur-label {
+        display: none; } }
+  #languages-block-top ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 157px;
+    background: #333;
+    z-index: 99; }
+    #languages-block-top ul li {
+       background: #fff;
+     color: rgb(116, 116, 116);
+      line-height: 35px;
+      font-size: 13px; }
+    
+      #languages-block-top ul li > span ,#languages-block-top ul li a span  {
+        padding: 10px 0 5px 5px;
+        color: rgb(116, 116, 116); }
+      #languages-block-top ul li.selected span, #languages-block-top ul li:hover a {
+         background: #fff;
+        color: #ce9634;
+        }
+
+/*# sourceMappingURL=blocklanguages.css.map */
