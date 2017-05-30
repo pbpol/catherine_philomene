@@ -111,8 +111,10 @@ class ProductsCategory extends Module
 		$product = $params['product'];
 
 		$cache_id = 'productscategory|'.$id_product.'|'.(isset($params['category']->id_category) ? (int)$params['category']->id_category : (int)$product->id_category_default);
-
-		if (!$this->isCached('productscategory.tpl', $this->getCacheId($cache_id)))
+		
+		### hack start
+		//if (!$this->isCached('productscategory.tpl', $this->getCacheId($cache_id)))
+		### hack end
 		{
 
 			$category = false;
@@ -201,8 +203,13 @@ class ProductsCategory extends Module
 				)
 			);
 		}
-
-		return $this->display(__FILE__, 'productscategory.tpl', $this->getCacheId($cache_id));
+		
+		
+		### hack start
+		return $this->display(__FILE__, 'productscategory.tpl');
+		//return $this->display(__FILE__, 'productscategory.tpl', $this->getCacheId($cache_id));
+		### hack end
+		
 	}
 
 	public function hookHeader($params)
