@@ -129,8 +129,29 @@ class ProductsCategory extends Module
 			if (!Validate::isLoadedObject($category) || !$category->active)
 				return false;
 
+			
+			
+			### hack start
 			// Get infos
-			$category_products = $category->getProducts($this->context->language->id, 1, 100); /* 100 products max. */
+			//$category_products = $category->getProducts($this->context->language->id, 1, 100); /* 100 products max. */
+			
+			$productObject=new Product($id_product);
+			$getAccessoryProducts=$productObject->getAccessories($this->context->language->id, true);
+			
+			if(is_array($getAccessoryProducts) & count($getAccessoryProducts)>0)
+			{
+				$category_products = $getAccessoryProducts;
+			}
+			else
+			{
+				$category_products = $category->getProducts($this->context->language->id, 1, 100); /* 100 products max. */	
+			}
+			
+			//$this->_d($category_products);
+			### hack end
+			
+			
+			
 			$nb_category_products = (int)count($category_products);
 			$middle_position = 0;
 
@@ -320,6 +341,15 @@ class ProductsCategory extends Module
 					Configuration::get('PRODUCTSCATEGORY_DISPLAY_PRICE')
 				),
 		);
+	}
+	
+	
+	public function _d($array)
+	{
+		echo "<pre>";
+		print_r($array);
+		echo "</pre>";
+		
 	}
 
 }

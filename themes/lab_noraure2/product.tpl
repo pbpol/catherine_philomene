@@ -653,7 +653,8 @@
 		{if isset($HOOK_PRODUCT_TAB_CONTENT) && $HOOK_PRODUCT_TAB_CONTENT}{$HOOK_PRODUCT_TAB_CONTENT}{/if}
 	</div>
 </div>
-		{if isset($accessories) && $accessories}
+		
+		{*{if isset($accessories) && $accessories}
 			<!--Accessories -->
 			<section class="page-product-box">
 				<h3 class="page-product-heading">{l s='Accessories'}</h3>
@@ -705,7 +706,9 @@
 				</div>
 			</section>
 			<!--end Accessories -->
-		{/if}
+		{/if}*}
+		
+		
 		{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}
 		<!-- description & features -->
 		{if (isset($product) && $product->description) || (isset($features) && $features) || (isset($accessories) && $accessories) || (isset($HOOK_PRODUCT_TAB) && $HOOK_PRODUCT_TAB) || (isset($attachments) && $attachments) || isset($product) && $product->customizable}
