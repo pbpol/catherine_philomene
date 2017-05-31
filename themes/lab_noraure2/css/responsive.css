@@ -8,7 +8,7 @@ a{outline: none;}
 
 .lab_logo {
 
-    padding: 13px 0px;
+    padding: 13px 0px !important;
 
     position: relative;
 
@@ -152,7 +152,7 @@ a{outline: none;}
 
     float: none;
 
-    width: 100%;
+    width: 100% !important;
 
 }
 

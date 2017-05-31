@@ -154,4 +154,72 @@ class FrontController extends FrontControllerCore
         }
         return self::$currentCustomerGroups;
     }
+	
+	
+	
+	
+    public function setMedia()
+    {
+        /**
+         * If website is accessed by mobile device
+         * @see FrontControllerCore::setMobileMedia()
+         */
+        if ($this->useMobileTheme()) {
+            $this->setMobileMedia();
+            return true;
+        }
+
+
+		$this->addCSS($this->getThemeDir().'css/font-awesome/font-awesome.css', 'all');
+		$this->addCSS($this->getThemeDir().'css/font-awesome/font-awesome-ie7.css', 'all');
+		
+		
+        $this->addCSS(_THEME_CSS_DIR_.'grid_prestashop.css', 'all');  // retro compat themes 1.5.0.1
+        $this->addCSS(_THEME_CSS_DIR_.'global.css', 'all');	
+        $this->addJquery();
+        $this->addJqueryPlugin('easing');
+        $this->addJS(_PS_JS_DIR_.'tools.js');
+        $this->addJS(_THEME_JS_DIR_.'global.js');
+
+        // Automatically add js files from js/autoload directory in the template
+        if (@filemtime($this->getThemeDir().'js/autoload/')) {
+            foreach (scandir($this->getThemeDir().'js/autoload/', 0) as $file) {
+                if (preg_match('/^[^.].*\.js$/', $file)) {
+                    $this->addJS($this->getThemeDir().'js/autoload/'.$file);
+                }
+            }
+        }
+        // Automatically add css files from css/autoload directory in the template
+        if (@filemtime($this->getThemeDir().'css/autoload/')) {
+            foreach (scandir($this->getThemeDir().'css/autoload', 0) as $file) {
+                if (preg_match('/^[^.].*\.css$/', $file)) {
+                    $this->addCSS($this->getThemeDir().'css/autoload/'.$file);
+                }
+            }
+        }
+
+
+		$this->addCSS($this->getThemeDir().'css/responsive.css', 'all');
+
+        if (Tools::isSubmit('live_edit') && Tools::getValue('ad') && Tools::getAdminToken('AdminModulesPositions'.(int)Tab::getIdFromClassName('AdminModulesPositions').(int)Tools::getValue('id_employee'))) {
+            $this->addJqueryUI('ui.sortable');
+            $this->addjqueryPlugin('fancybox');
+            $this->addJS(_PS_JS_DIR_.'hookLiveEdit.js');
+        }
+
+        if (Configuration::get('PS_QUICK_VIEW')) {
+            $this->addjqueryPlugin('fancybox');
+        }
+
+        if (Configuration::get('PS_COMPARATOR_MAX_ITEM') > 0) {
+            $this->addJS(_THEME_JS_DIR_.'products-comparison.js');
+        }
+
+        // Execute Hook FrontController SetMedia
+        Hook::exec('actionFrontControllerSetMedia', array());
+
+        return true;
+    }
+	
+	
 }
