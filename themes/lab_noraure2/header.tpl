@@ -43,11 +43,16 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<link rel="icon" type="image/vnd.microsoft.icon" href="{$favicon_url}?{$img_update_time}" />
 		<link rel="shortcut icon" type="image/x-icon" href="{$favicon_url}?{$img_update_time}" />
-		<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+		
+		
+		{*<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700,500italic' rel='stylesheet' type='text/css'>
-		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">*}
+	
+		
 		{*<link href='{$css_dir}font-awesome/font-awesome.css' rel='stylesheet' type='text/css'>
 		<link href='{$css_dir}font-awesome/font-awesome-ie7.css' rel='stylesheet' type='text/css'>*}
+		
 		{if isset($css_files)}
 			{foreach from=$css_files key=css_uri item=media}
 				<link rel="stylesheet" href="{$css_uri|escape:'html':'UTF-8'}" type="text/css" media="{$media|escape:'html':'UTF-8'}" />
@@ -62,8 +67,8 @@
 			{/foreach}
 		{/if}
 		{$HOOK_HEADER}
-		{*<link href="{$tpl_uri|escape:'html':'UTF-8'}css/responsive.css" rel="stylesheet" type="text/css"/>*}
-		<link rel="stylesheet" href="http{if Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
+		{*<link href="{$tpl_uri|escape:'html':'UTF-8'}css/responsive.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="http{if Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />*}
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>

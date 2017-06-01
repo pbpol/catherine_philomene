@@ -155,7 +155,38 @@ class FrontController extends FrontControllerCore
         return self::$currentCustomerGroups;
     }
 	
-	
+	public function setMobileMedia()
+    {
+        $this->addJquery();
+
+        if (!file_exists($this->getThemeDir().'js/autoload/')) {
+            $this->addJS(_THEME_MOBILE_JS_DIR_.'jquery.mobile-1.3.0.min.js');
+            $this->addJS(_THEME_MOBILE_JS_DIR_.'jqm-docs.js');
+            $this->addJS(_PS_JS_DIR_.'tools.js');
+            $this->addJS(_THEME_MOBILE_JS_DIR_.'global.js');
+            $this->addJqueryPlugin('fancybox');
+        }
+
+        if (!file_exists($this->getThemeDir().'css/autoload/')) {
+            $this->addCSS(_THEME_MOBILE_CSS_DIR_.'jquery.mobile-1.3.0.min.css', 'all');
+            $this->addCSS(_THEME_MOBILE_CSS_DIR_.'jqm-docs.css', 'all');
+			
+			
+			$this->addCSS($this->getThemeDir().'css/font-pt-sans/font-pt-sans.css', 'all');
+			$this->addCSS($this->getThemeDir().'css/font-roboto/font-roboto.css', 'all');
+			$this->addCSS($this->getThemeDir().'css/font-robotoslab/font-robotoslab.css', 'all');
+			$this->addCSS($this->getThemeDir().'css/font-open-sans/font-open-sans.css', 'all');
+		
+			$this->addCSS($this->getThemeDir().'css/font-awesome/font-awesome.css', 'all');
+		    $this->addCSS($this->getThemeDir().'css/font-awesome/font-awesome-ie7.css', 'all');
+			
+			
+            $this->addCSS(_THEME_MOBILE_CSS_DIR_.'global.css', 'all');
+			
+			
+			$this->addCSS(_THEME_MOBILE_CSS_DIR_.'responsive.css', 'all');
+        }
+    }
 	
 	
     public function setMedia()
@@ -169,11 +200,15 @@ class FrontController extends FrontControllerCore
             return true;
         }
 
-
+		$this->addCSS($this->getThemeDir().'css/font-pt-sans/font-pt-sans.css', 'all');
+		$this->addCSS($this->getThemeDir().'css/font-roboto/font-roboto.css', 'all');
+		$this->addCSS($this->getThemeDir().'css/font-robotoslab/font-robotoslab.css', 'all');
+		$this->addCSS($this->getThemeDir().'css/font-open-sans/font-open-sans.css', 'all');
+		
 		$this->addCSS($this->getThemeDir().'css/font-awesome/font-awesome.css', 'all');
 		$this->addCSS($this->getThemeDir().'css/font-awesome/font-awesome-ie7.css', 'all');
 		
-		
+		 
         $this->addCSS(_THEME_CSS_DIR_.'grid_prestashop.css', 'all');  // retro compat themes 1.5.0.1
         $this->addCSS(_THEME_CSS_DIR_.'global.css', 'all');	
         $this->addJquery();
