@@ -60,20 +60,20 @@
 									</a>
 								{/if}
 								{if isset($product.new) && $product.new == 1}
-									<a class="new-box" href="{$product.link|escape:'html':'UTF-8'}">
-										<span class="new-label">{l s='New' mod='labtabproductslider'}</span>
+									<a class="new-box" href="{$product.link|escape:'html':'UTF-8'}" style="height:64px; width:64px;">
+										<span class="new-label" style="height:64px; width:64px;">{l s='New'}</span>
 									</a>
 								{/if}
 								{if isset($product.on_sale) && $product.on_sale && isset($product.show_price) && $product.show_price && !$PS_CATALOG_MODE}
 									<a class="sale-box" href="{$product.link|escape:'html':'UTF-8'}">
-										<span class="sale-label">{l s='Sale!' mod='labtabproductslider'}</span>
+										<span class="sale-label">{l s='Sale!'}</span>
 									</a>
 								{/if}
 								{if isset($quick_view) && $quick_view}
 
 									<a class="quick-view" href="{$product.link|escape:'html':'UTF-8'}" rel="{$product.link|escape:'html':'UTF-8'}"
 									   data-id-product="{$product.id_product|intval}"
-									   title="{l s='Quick view' mod='labtabproductslider'}">
+									   title="{l s='Quick view'}">
 									</a>
 								{/if}
 							</div>
