@@ -62,7 +62,7 @@ class ManufacturerControllerCore extends FrontController
                 header('Status: 404 Not Found');
                 $this->errors[] = Tools::displayError('The manufacturer does not exist.');
             } else {
-                $this->canonicalRedirection();
+                //$this->canonicalRedirection();
             }
         }
     }
